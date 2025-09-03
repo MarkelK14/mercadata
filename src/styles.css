@@ -1,1 +1,14 @@
 @import "tailwindcss";
+
+/* Configuracion de estilos globales (Tailwind) */
+@theme {
+  --color-background: #FFFFFF;
+  --color-background-dark: #E0E0E0;
+
+  --color-primary-green: #00AB61;
+  --color-primary-green-hover: #009956;
+}
+
+html {
+  scroll-behavior: smooth;
+}
